@@ -1,0 +1,7 @@
+# Programa para identificar Palíndromos em Phyton
+# ovo, arara, carcacrac, 121
+palavra = input("Digite sua palavra")
+if palavra.lower() == palavra[::-1].lower():
+  print("Sua plavra é um Palíndromo")
+else:
+  print("Sua paalvra não é um Palíndromo")
